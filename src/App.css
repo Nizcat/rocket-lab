@@ -1,16 +1,34 @@
-.App {
-  text-align: center;
+
+.Initial{
+  width: 100vw;
+  height: 95vh;
+  background-image: linear-gradient(to right bottom,#b20ecf46,#ca5ad72f),url('https://raw.githubusercontent.com/Laboratoria/CDMX012-gym/main/session-16/exercises/rocket-lab-web/assets/spacex.jpg'
+  );
+  clip-path: polygon(0 0,100% 0,100% 75vh,0 100%);
+  position: relative;
+  background-size: cover;
+  margin: 1.5em;
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Rocket {
+  width: 96vw;
+  clip-path: polygon(0 0, 100% 0, 100% 55%, 0 75%);
+  z-index: -1;
+  margin: 1.5em;
+  
+}
+
+.RocketTitle{
+  position: center;
+  z-index: 1;
+  color: white;
+  
+
 }
 
 @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+ 
 }
 
 .App-header {

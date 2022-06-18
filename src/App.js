@@ -14,7 +14,11 @@ function App() {
       </header>
       <CapStatus />
       <AllCapsules />
-      
+      <footer>
+        <div className={styles.foot}>
+        <p className={styles.footText}>FIX YOUR LITTLE PROBLEM AND LIGHT THIS CANDLE.</p>
+        </div>
+      </footer>
     </div>
   );
 }
